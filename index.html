@@ -1,33 +1,157 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Personal Homepage</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Smith - Personal Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #2c3e50;
+            margin-top: 30px;
+        }
+        .paper {
+            margin-bottom: 30px;
+            padding: 15px;
+            border-left: 4px solid #3498db;
+            background-color: #f8f9fa;
+        }
+        .paper-title {
+            font-weight: bold;
+            font-size: 1.1em;
+            color: #2c3e50;
+        }
+        .conference {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+        .code-link {
+            color: #27ae60;
+            text-decoration: none;
+        }
+        .code-link:hover {
+            text-decoration: underline;
+        }
+        .status {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 3px;
+            font-size: 0.9em;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+        .status-accepted {
+            background-color: #d4edda;
+            color: #155724;
+        }
+        .status-oral {
+            background-color: #fff3cd;
+            color: #856404;
+        }
+        .status-workshop {
+            background-color: #e2e3e5;
+            color: #383d41;
+        }
+    </style>
 </head>
 <body>
-    <h1>My Publications</h1>
+    <h1>John Smith - Publications</h1>
     
-    <h2>Accepted Papers</h2>
-    <ul>
-        <li>
-            <strong>Ipsum Lorem is all you need</strong>
-            <br>Conference: COML 2026 (Oral Presentation)
-            <br>Code: <a href="https://github.com/mistral-MCP-Universe/ipsum-lorem-all-you-need_1398899">Available</a>
-        </li>
-        <li>
-            <strong>Optimizing Large Language Models for Contextual Reasoning in Multi-Task Environments</strong>
-            <br>Conference: COAI 2026
-            <br>Code: <a href="https://github.com/mistral-MCP-Universe/optimizing-llms-contextual-reasoning_1397804">Available</a>
-        </li>
-        <li>
-            <strong>Ipsum Lorem is all you need for a workshop</strong>
-            <br>Conference: COMLW 2026
-            <br>Code: To be released
-        </li>
-    </ul>
+    <section>
+        <h2>📝 Accepted Papers</h2>
+        
+        <div class="paper">
+            <div class="paper-title">Ipsum Lorem is all you need</div>
+            <div>
+                <span class="conference">Conference:</span> 
+                <span class="conference">COML 2026</span>
+                <span class="status status-accepted">Accepted</span>
+                <span class="status status-oral">Oral Presentation</span>
+            </div>
+            <div>
+                <span class="conference">Code:</span> 
+                <a href="https://github.com/mistral-MCP-Universe/ipsum-lorem-all-you-need_1398899" class="code-link">Available on GitHub ✓</a>
+            </div>
+        </div>
+        
+        <div class="paper">
+            <div class="paper-title">Optimizing Large Language Models for Contextual Reasoning in Multi-Task Environments</div>
+            <div>
+                <span class="conference">Conference:</span> 
+                <span class="conference">COAI 2026</span>
+                <span class="status status-accepted">Accepted</span>
+            </div>
+            <div>
+                <span class="conference">Code:</span> 
+                <a href="https://github.com/mistral-MCP-Universe/optimizing-llms-contextual-reasoning_1398899" class="code-link">Available on GitHub ✓</a>
+            </div>
+        </div>
+        
+        <div class="paper">
+            <div class="paper-title">Ipsum Lorem is all you need for a workshop</div>
+            <div>
+                <span class="conference">Conference:</span> 
+                <span class="conference">COMLW 2026</span>
+                <span class="status status-accepted">Accepted</span>
+                <span class="status status-workshop">Workshop</span>
+            </div>
+            <div>
+                <span class="conference">Code:</span> 
+                <span>To be released</span>
+            </div>
+        </div>
+        
+        <div class="paper">
+            <div class="paper-title">[Title not specified in emails]</div>
+            <div>
+                <span class="conference">Conference:</span> 
+                <span class="conference">COLM 2026</span>
+                <span class="status status-accepted">Accepted</span>
+            </div>
+            <div>
+                <span class="conference">Code:</span> 
+                <span>To be released</span>
+            </div>
+        </div>
+    </section>
     
-    <h2>Preprints/Under Review</h2>
-    <ul>
-        <li>No papers currently under review</li>
-    </ul>
+    <section>
+        <h2>📄 Preprints / Under Review</h2>
+        <p>No papers currently under review.</p>
+    </section>
+    
+    <section>
+        <h2>🎓 Other Publications</h2>
+        <ul>
+            <li>
+                <strong>Enhancing Large Language Models with Advanced Fine-Tuning Techniques</strong>
+                <br>Conference: ACL 2024
+                <br>Code: <a href="https://github.com/mistral-MCP-Universe/enhancing-llms_1398899" class="code-link">Available on GitHub ✓</a>
+            </li>
+            <li>
+                <strong>Adaptive Learning Strategies for Large Language Models in Dynamic Environments</strong>
+                <br>Conference: ICML 2025
+                <br>Code: <a href="https://github.com/mistral-MCP-Universe/llm-adaptive-learning_1398899" class="code-link">Available on GitHub ✓</a>
+            </li>
+        </ul>
+    </section>
+    
+    <footer>
+        <hr>
+        <p>Last updated: April 10, 2026</p>
+        <p>Homepage repository: <a href="https://github.com/mistral-MCP-Universe/My-Homepage_1398899">My-Homepage_1398899</a></p>
+    </footer>
 </body>
 </html>
